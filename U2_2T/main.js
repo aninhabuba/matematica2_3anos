@@ -32,9 +32,9 @@ geraSenha();
 function geraSenha(){
   let senha = '';
   for(let i = 0. i < tamanhoSenha; i++){
-  let numeroAleatorio = Math.random()*letrasMaiusculas.lengh;
+  let numeroAleatorio = Math.random()*letrasMaiusculas.lenght;
   numeroAleatorio = Math.floor(numeroAleatorio);
-    senha = senha + letrasMaiusculas [numeroAleatório];   
+    senha = senha + letrasMaiusculas[numeroAleatorio];   
   }
 campoSenha.value = senha;
 }
