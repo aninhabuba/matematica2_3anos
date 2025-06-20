@@ -124,6 +124,10 @@ body{
     width: 25%;
     background-color: #E71B32; 
 }
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
+}
 .media{
     background-color: #FAF408;
     width: 50%;
@@ -134,7 +138,5 @@ body{
 }
 
 @media screen and (min-width: 768px) {
-    .parametro-coluna__senha{
-        flex-direction: row;
-    }
+
 }
