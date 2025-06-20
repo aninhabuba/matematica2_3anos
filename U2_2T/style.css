@@ -106,7 +106,7 @@ body{
     margin: 0px;
     font-size: 24px;
 }
-label{
+.label{
    font-size: 20px;
 }
 .checkbox{
