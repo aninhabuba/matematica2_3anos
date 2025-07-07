@@ -45,7 +45,7 @@ const perguntas = [
                 afirmacao:"afirmação"
             },
             {
-                texto:"Criar uma imagem utilizando um gerador de imagem de IA."
+                texto:"Criar uma imagem utilizando um gerador de imagem de IA.",
                 afirmacao:"afirmação"
             },
         ]
