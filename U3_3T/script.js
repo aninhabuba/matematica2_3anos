@@ -97,7 +97,7 @@ function respostaSelecionada(opcaoSelecionada) {
 
 function mostraResultado(){
     caixaPerguntas.textContent = "Em 2049, Ana...";
-    textoResultado.textContent= historiaFinal;
+    textoResultado.textContent= "Descobre que as máquinas são capazes de fazer coisas que não pensaríamos!";
     caixaAlternativas.textContent = "";
 }
 
