@@ -126,7 +126,7 @@ function mostraAlternativas() {
 }
 
 function respostaSelecionada(opcaoSelecionada) {
-    const afirmacoes = opcaoSelecionada.afirmacoes;
+    const afirmacoes = aleatorio (opcaoSelecionada.afirmacoes);
     historiaFinal += afirmacoes + " ";
     atual++;
     mostraPergunta();
@@ -137,6 +137,12 @@ function mostraResultado(){
     caixaPerguntas.textContent = "Em 2049, Ana...";
     textoResultado.textContent= "Descobre que as máquinas são capazes de fazer coisas que não pensaríamos!";
     caixaAlternativas.textContent = "";
+}
+
+
+function aleatorio(lista){
+    const posicao =  Math.floor(Math.random()* lista.length);
+    return lista[posicao];
 }
 
 mostraPergunta();
